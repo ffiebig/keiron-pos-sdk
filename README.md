@@ -1,6 +1,6 @@
-# Transbank POS SDK Node.js
+# Keirón POS SDK Node.js
 
-SDK Oficial de Transbank para comunicarse con POS Verifone vx520, vx520c e Ingenico 3500
+SDK NO Oficial de Transbank para comunicarse con POS Verifone vx520, vx520c, Ingenico 3500 y POS Autoservicio Verifone UX100/300/400
 
 ## Requisitos
 - Node.js 10+
@@ -10,7 +10,7 @@ SDK Oficial de Transbank para comunicarse con POS Verifone vx520, vx520c e Ingen
 ## Instalación
 Para instalar este SDK en tu proyecto, solo debes incluirlo usando npm/yarn. 
 ```bash
-npm install transbank-pos-sdk
+npm install keiron-pos-sdk
 ```
 
 ### ¿Cómo se usa?
@@ -292,3 +292,5 @@ En ese PR deben incluirse los siguientes cambios:
 Luego de obtener aprobación del pull request, debe mezclarse a master e inmediatamente generar un release en GitHub con el tag `vX.Y.Z`. En la descripción del release debes poner lo mismo que agregaste al changelog.
 
 Posteriormente, se debe hacer el release en npm. Esto se hace de forma manual usando `npm publish`. Se debe estar logeado `npm login` con la cuenta de TransbankDevelopers
+
+Repositorio Original https://github.com/TransbankDevelopers/transbank-pos-sdk-nodejs
